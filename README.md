@@ -3,4 +3,4 @@
 #### index.php
 ## PHP Week3 Homework
 #### 1. KentingTripHw.php
-#### 2. success.php (此為報名成功畫面)
+#### 2. success.php (此為報名成功頁面)
