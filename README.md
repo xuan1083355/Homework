@@ -1,4 +1,4 @@
 # PHP Week1 Homework
-###index.php
+## index.php
 # PHP Week3 Homework
-###KentingTripHw.php
+## KentingTripHw.php
