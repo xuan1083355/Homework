@@ -1,5 +1,5 @@
 <?php
-    ob_start();
+   // ob_start();
     session_start();
     
 ?>
@@ -61,14 +61,16 @@
                     $_SESSION["admin_login"]="YES";
                     header("Location: admin.php");
                 }else{
-                    echo "密碼輸入錯誤，請重新輸入";
+                    header("Location: login.php");
+                  //  echo "密碼輸入錯誤，請重新輸入";
                 }
             }else if($uid==$user){
                 if($upsw==$user_psw){
                     $_SESSION["user_login"]="YES";
                     header("Location: register.php");
                 }else{
-                    echo "密碼輸入錯誤，請重新輸入";
+                    header("Location: login.php");
+                    //echo "密碼輸入錯誤，請重新輸入";
                 }   
             }else{
                  header("Location: login.php");
@@ -78,7 +80,7 @@
             //echo "請輸入帳號密碼";
         }
 
-        ob_flush();
+       // ob_flush();
         ?>
     </body>
 </html>
